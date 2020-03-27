@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:alwaysDrawnWithCache="false"
+    android:foregroundTint="#FFFCFC"
     tools:context=".DisplayMessageActivity">
 
     <TextView
@@ -11,7 +13,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
+        android:foregroundTint="#A53131"
         android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#4CAF50"
+        app:drawableTint="#EF8585"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
